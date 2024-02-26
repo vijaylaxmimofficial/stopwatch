@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   min-height: 100vh;
+    border-radius: 5%;
+    color: white;
+    font-size: 300%;
+    flex-direction: column;
+    
+}
+.stopwatch{
+    border-radius: 10px;
+    padding: 20px 24px;
+    background-color: rgba(0,0,0,0.9);
+   
+}
+.timer{
+    font-weight: bold;
+}
+.btn{
+    color: white;
+    font-size: 15px;
+    background: none;
+    padding: 6px 6px;
+    border-radius: 10%;
+    background-color: var(--clr);
+
+    
+    
+}
+
